@@ -1,0 +1,5 @@
+cp Vector2Svg.java path/to/xml_dir
+javac Vector2Svg.java
+java Vector2Svg ./*.xml
+mkdir svg_dir
+mv *.svg svg_dir
